@@ -1,0 +1,53 @@
+input, button {
+    /* appearance: none;
+    background: none;
+    border: none;
+    outline: none; */
+    cursor: pointer;
+  }
+
+  #navbar {
+    background-color: #FE4880;
+  }
+  
+  .navbar {
+    z-index: 1;
+    margin-top: 0;
+    border-top: 15px;
+    /* color: white; */
+    top: 0;
+    padding: 0 10rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar ul {
+    text-align: center;
+    
+  }
+  
+  .navbar li {
+    display: inline-block;
+    align-items: stretch;
+  }
+  
+  .navbar h1 {
+    color: blueviolet;
+  }
+
+  .navbar li a {
+    display: block;
+       padding: 8px 15px;
+       text-decoration: none;
+       font-weight: bold;
+       color: white;
+       text-transform: uppercase;
+       text-align: center;
+       border-right: 1px solid #ccc;
+       justify-content: space-between
+  }
+  
+  .navbar li a:hover {
+    color: #5900ff;
+  }
+  
